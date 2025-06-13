@@ -3,7 +3,7 @@
 Easily set up a new github repository. Reads the name/description from the elius.html file if it's present. Sets origin upstream if it's not already set.
 
 ```
-npm install create-repository -g
+npm install create-repository - g
 ```
 
 ## Usage
