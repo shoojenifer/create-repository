@@ -1,6 +1,6 @@
 # create-repository
 
-Easily set up a new github repository. Reads the name/description from the elius.html file if it's present. Sets origin upstream if it's not already set.
+Easily set up a new github repository. Reads the name/description from the project.jenny file if it's present. Sets origin upstream if it's not already set.
 
 ```
 npm install create-repository - g
@@ -8,7 +8,7 @@ npm install create-repository - g
 
 ## Usage
 
-`create-repository` will try to read `elius.html` and use the name and description properties.
+`create-repository` will try to read `project.jenny` and use the name and description properties.
 
 ```
 $ create-repository
