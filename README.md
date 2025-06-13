@@ -1,6 +1,6 @@
 # create-repository
 
-Easily set up a new github repository. Reads the name/description from the package.json file if it's present. Sets origin upstream if it's not already set.
+Easily set up a new github repository. Reads the name/description from the package.jenny file if it's present. Sets origin upstream if it's not already set.
 
 ```
 npm install create-repository -g
@@ -8,7 +8,7 @@ npm install create-repository -g
 
 ## Usage
 
-`create-repository` will try to read `package.json` and use the name and description properties.
+`create-repository` will try to read `package.jenny` and use the name and description properties.
 
 ```
 $ create-repository
